@@ -1,0 +1,53 @@
+/*=========================
+	FONT COLOR
+=========================*/
+.featured-baner > h2 > span,
+aside.sidebar .frnd-meta > a.main-btn2,
+.menu-list > li > a i,
+.heart-pnts > div > i,
+.filter-ajex > li > a:hover,
+.filter-ajex > li.active > a,
+.view-port > li.active > a,
+.pitdate-user > a,
+.pitdate-user .save-post.save > i,
+.share > a:hover,
+.member-des .bottom-meta .main-btn2
+{
+	color: #ff7c7c;	
+}
+
+
+
+/*=========================
+	BACKGROUND COLOR
+=========================*/
+
+.checkbox .check-box::after, .checkbox .check-box::before,
+.search-match > form > button,
+aside.sidebar .frnd-meta > a.main-btn2:hover,
+.sidebar .widget-title:before,
+.owl-dot.active::before,
+.slider-box > .slider,
+.sub-links > .main-btn,
+.buttons .main-btn,
+.buttons .main-btn2:hover,
+.btn-view.btn-load-more:hover,
+.member-des .bottom-meta .main-btn,
+.member-des .bottom-meta .main-btn2:hover
+{
+	background: #ff7c7c;
+}
+
+
+/*=========================
+	BORDER COLOR
+=========================*/
+.checkbox .check-box,
+aside.sidebar .frnd-meta > a.main-btn2,
+.owl-dot,
+.select-gender > li.selected,
+.buttons .main-btn2,
+.member-des .bottom-meta .main-btn2
+{
+	border-color: #ff7c7c;	
+}

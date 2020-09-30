@@ -7116,6 +7116,7 @@ a.with-smedia {
 }
 
 .big-ad > h1 {
+    color: white;
     display: flex;
     align-items: center;
     justify-content: center;

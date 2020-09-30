@@ -1,46 +1,3 @@
-/*
-[Master Stylesheet]
-
-Project Name: Pitnik (Social Network HMTL Template)
-Version:    1.1
-Start Date:  8/August/19
-
-====INDEX=====
-
-01- general styling
-02- sticky header 
-03- login/landing page
-04- home page topbar
-05- timeline area
-06- messages dropdowns
-07- sidebar widgets
-08- post sharing area
-09- social icons
-10- comment area 
-11- search area
-12- footer
-13- widgets
-14- side panel
-15- short profile widget
-16- svg button styling
-17- 404 error page 
-18- contact page
-19- knowledge base page 
-20- faq's page
-21- photos page
-22- favourit page 
-23- edit basic info page
-24- notification page
-25- message page
-26- loadmore 
-27- responsive header
-28- main menu
-39- blog pages
-40- blog detail
-
-*/
-
-
 /*=============== Fonts source Muli, Hobostd ===================*/
 
 /*@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,500,500&display=swap');*/
@@ -52,7 +9,7 @@ Start Date:  8/August/19
 ***General Styling 
 ===============*/
 html,body{
-	font-family: "Roboto", "Segoe Ui";
+	font-family: "Comic Sans MS";
 }
 body {
     float: left;
@@ -93,6 +50,10 @@ button:focus {
 img {
     height: auto;
     max-width: 100%;
+}
+
+.main-color {
+    color: #FF00FF;
 }
 
 .overlap {
@@ -6974,7 +6935,7 @@ a.addnewforum {
 	height: 100vh;
 }
 .we-login-register {
-    background: #008acd;
+    background: #FF00FF;
     float: left;
     padding: 50px 75px 50px;
     position: relative;

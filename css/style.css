@@ -52,7 +52,7 @@ img {
     max-width: 100%;
 }
 
-.main-color {
+.my-color {
     color: #FF00FF;
 }
 
@@ -7116,7 +7116,6 @@ a.with-smedia {
 }
 
 .big-ad > h1 {
-    color: white;
     display: flex;
     align-items: center;
     justify-content: center;

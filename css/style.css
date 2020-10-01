@@ -1296,6 +1296,7 @@ header.sticky {
     background: #fff;
     border: 1px solid #ede9e9;
     border-radius: 6px;
+    overflow: hidden;
 }
 
 .sidebar .widget:last-child {
@@ -2854,10 +2855,10 @@ footer .widget .colla-apps > li a{
 .followers > li figure {
     display: inline-block;
     margin-bottom: 0;
-    max-width: 40px;
-    min-width: 40px;
+    max-width: 38px;
+    min-width: 38px;
     vertical-align: middle;
-    width: 40px;
+    width: 38px;
 }
 
 .friend-meta {
@@ -3293,8 +3294,8 @@ li.google {
 
 .widget .twiter-feed > li > i {
     color: #38bff1;
-    font-size: 20px;
-    width: 20px;
+    font-size: 30px;
+    width: 27px;
 }
 
 .widget .twiter-feed > li > span i {
@@ -6573,7 +6574,8 @@ a.addnewforum {
 
 .monthly-weather {
     display: inline-block;
-    margin: 20px 0;
+    margin-top: 20px;
+    margin-bottom: 50px;
     position: relative;
     width: 100%;
     z-index: 2;
@@ -6594,7 +6596,7 @@ a.addnewforum {
     line-height: 14px;
     margin-bottom: 0;
     vertical-align: middle;
-    width: 12.9%;
+    width: 12.6%;
 }
 .widget .monthly-weather > ul > li a {
     display: inline-block;

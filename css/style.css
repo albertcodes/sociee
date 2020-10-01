@@ -2855,10 +2855,10 @@ footer .widget .colla-apps > li a{
 .followers > li figure {
     display: inline-block;
     margin-bottom: 0;
-    max-width: 40px;
-    min-width: 40px;
+    max-width: 38px;
+    min-width: 38px;
     vertical-align: middle;
-    width: 40px;
+    width: 38px;
 }
 
 .friend-meta {

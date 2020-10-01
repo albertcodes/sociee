@@ -604,7 +604,7 @@ header.sticky {
 /*--- topbar ---*/
 
 .topbar {
-    background: #0a7bdb;
+    background:#000000;
     display: block;
     height: 60px;
     padding: 0 16px;
@@ -4996,6 +4996,8 @@ canvas {
     margin-top: 7px;
     text-align: left;
     width: 32%;
+    border-radius: 50px;
+    overflow: hidden;
 }
 
 .top-search form {
@@ -5021,7 +5023,7 @@ canvas {
     color: #999898;
     font-size: 15px;
     position: absolute;
-    left: 6px;
+    left: 2px;
     top: 50%;
     -webkit-transform: translateY(-50%);
     -moz-transform: translateY(-50%);

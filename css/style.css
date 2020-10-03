@@ -1464,6 +1464,8 @@ header.sticky {
     display: inline-block;
     margin-bottom: 0;
     vertical-align: top;
+    max-width: 40px;
+    max-height: 40px;
 }
 
 .newpst-input {

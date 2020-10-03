@@ -1604,7 +1604,7 @@ form button {
     display: inline-block;
     margin-bottom: 0;
     vertical-align: middle;
-    width: 40px;
+    max-width: 38px;
 }
 
 .friend-name {
@@ -2317,9 +2317,9 @@ for some reason nth-child(1) is always busy and elements starting from 2 */
 
 .comet-avatar {
     display: inline-block;
-    max-width: 36px;
+    max-width: 34px;
     vertical-align: top;
-    width: 36px;
+    width: 34px;
 }
 
 .we-comment {

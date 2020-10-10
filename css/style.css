@@ -8622,7 +8622,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', e
     font-weight: 500;
     line-height: 26px;
     margin-bottom: 12px;
-    vertical-align: middle;
 	color: #535165;
 }
 .event-title > p {
@@ -14519,8 +14518,6 @@ a.circle-btn:hover {
     background: rgba(0, 0, 0, 0.2) none repeat scroll 0 0;
 	border-radius: 50px 0 0 50px;
 }
-.playlist-box > ul li a:hover {
-}
 .audio-single .pit-opt > li em {
     color: #959ab5;
 }
@@ -15737,7 +15734,6 @@ a.shopping-cart > i {
 	-ms-background-clip: text;
     -ms-text-fill-color: transparent;
 	background-clip: text;
-    text-fill-color: transparent;
 }
 .social-circle {
     display: flex;

@@ -637,7 +637,6 @@ header.sticky {
 
 .top-area > ul {
     display: inline-block;
-    float: left;
     line-height: 58px;
     list-style: outside none none;
     margin-bottom: 0;

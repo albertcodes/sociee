@@ -7191,6 +7191,8 @@ input[type="checkbox"]:checked + label{color: #000;}
 /*--- image punch post style ---*/
 .img-bunch > .row {
     margin: 0;
+    overflow: hidden;
+    border-radius: 6px;
 }
 .img-bunch {
     float: left;
@@ -7205,7 +7207,7 @@ input[type="checkbox"]:checked + label{color: #000;}
     margin: 0;
     padding: 1px;
     width: 100%;
-	position: relative;
+    position: relative;
 }
 
 .img-bunch .strip {

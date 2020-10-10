@@ -1415,8 +1415,6 @@ header.sticky {
     width: 100%;
 }
 
-.activity-meta > h6 a {}
-
 .activitiez > li::before {
     content: "";
     height: 100%;

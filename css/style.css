@@ -724,7 +724,9 @@ header.sticky {
     display: inline-block;
     transform: scale(0.8);
     vertical-align: inherit;
-	border: 2px solid rgba(255,255,255,.8);
+    border: 2px solid rgba(255,255,255,.8);
+    max-width: 35px;
+    max-height: 35px;
 }
 
 .form-search {
@@ -2889,7 +2891,7 @@ footer .widget .colla-apps > li a{
     background: #fff none repeat scroll 0 0;
     border-radius: 0 0 3px 3px;
     position: absolute;
-    left: 70px;
+    /* left: 70px; */
     text-align: left;
     top: 100%;
     width: 200px;
@@ -2906,7 +2908,7 @@ footer .widget .colla-apps > li a{
     border-left: 10px solid transparent;
     border-right: 10px solid transparent;
     content: "";
-    left: 40%;
+    left: 83%;
     position: absolute;
     top: -9px;
     transform: translate(-50%);

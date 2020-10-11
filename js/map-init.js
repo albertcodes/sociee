@@ -8,39 +8,39 @@ jQuery(document).ready(function($) {
 		function initialize() {
 		  var mapOptions = {
 		    zoom: 12,
-		    center: new google.maps.LatLng(37.048437, -100.921268)
+		    center: new google.maps.LatLng(1.2734, 36.8481)
 		  };
 		  map = new google.maps.Map(document.getElementById('map-canvas'),
 		      mapOptions);
 		      var marker = new google.maps.Marker({
 		        map: map,
 		        icon: "images/map-marker.png",
-		        title: "Mi marcador",
+		        title: "Eastleigh",
 		        position: map.getCenter()
 		      });
 		      var marker2 = new google.maps.Marker({
 		        map: map,
 		        icon: "images/map-marker2.png",
-		        title: "Otro marker",
-		        position: new google.maps.LatLng(37.071450, -100.900326)
+		        title: "Nairobi",
+		        position: new google.maps.LatLng(1.2921, 1.2921)
 		      });
 		      var marker3 = new google.maps.Marker({
 		        map: map,
 		        icon: "images/map-marker3.png",
-		        title: "Otro marker mas",
-		        position: new google.maps.LatLng(37.020208, -100.917492)
+		        title: "Kenya",
+		        position: new google.maps.LatLng(0.0236, 37.9062)
 		      });
 
 
 
 		      var infowindow = new google.maps.InfoWindow();
-		      infowindow.setContent('<b>Mi marcador</b><br>Tel: 46546545');
+		      infowindow.setContent('<b>Eastleigh</b>');
 
 		      var infowindow2 = new google.maps.InfoWindow();
-		      infowindow2.setContent('<b>Otro marker</b><br>Tel: 46546545');
+		      infowindow2.setContent('<b>Nairobi</b>');
 
 		      var infowindow3 = new google.maps.InfoWindow();
-		      infowindow3.setContent('<b>Otro marker mas</b><br>Tel: 46546545');
+		      infowindow3.setContent('<b>Kenya</b>');
 
 		      infowindow.open(map, marker);
 

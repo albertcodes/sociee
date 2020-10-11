@@ -606,7 +606,7 @@ header.sticky {
 .topbar {
     background:#000000;
     display: block;
-    height: 60px;
+    height: 63px;
     padding: 0 16px;
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
     z-index: 999;
@@ -637,7 +637,6 @@ header.sticky {
 
 .top-area > ul {
     display: inline-block;
-    float: left;
     line-height: 58px;
     list-style: outside none none;
     margin-bottom: 0;
@@ -725,7 +724,9 @@ header.sticky {
     display: inline-block;
     transform: scale(0.8);
     vertical-align: inherit;
-	border: 2px solid rgba(255,255,255,.8);
+    border: 2px solid rgba(255,255,255,.8);
+    max-width: 35px;
+    max-height: 35px;
 }
 
 .form-search {
@@ -1414,8 +1415,6 @@ header.sticky {
     font-size: 13px;
     width: 100%;
 }
-
-.activity-meta > h6 a {}
 
 .activitiez > li::before {
     content: "";
@@ -2892,7 +2891,7 @@ footer .widget .colla-apps > li a{
     background: #fff none repeat scroll 0 0;
     border-radius: 0 0 3px 3px;
     position: absolute;
-    left: 70px;
+    /* left: 70px; */
     text-align: left;
     top: 100%;
     width: 200px;
@@ -2909,7 +2908,7 @@ footer .widget .colla-apps > li a{
     border-left: 10px solid transparent;
     border-right: 10px solid transparent;
     content: "";
-    left: 40%;
+    left: 83%;
     position: absolute;
     top: -9px;
     transform: translate(-50%);
@@ -7191,6 +7190,8 @@ input[type="checkbox"]:checked + label{color: #000;}
 /*--- image punch post style ---*/
 .img-bunch > .row {
     margin: 0;
+    overflow: hidden;
+    border-radius: 6px;
 }
 .img-bunch {
     float: left;
@@ -7205,7 +7206,7 @@ input[type="checkbox"]:checked + label{color: #000;}
     margin: 0;
     padding: 1px;
     width: 100%;
-	position: relative;
+    position: relative;
 }
 
 .img-bunch .strip {
@@ -8622,7 +8623,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', e
     font-weight: 500;
     line-height: 26px;
     margin-bottom: 12px;
-    vertical-align: middle;
 	color: #535165;
 }
 .event-title > p {
@@ -14519,8 +14519,6 @@ a.circle-btn:hover {
     background: rgba(0, 0, 0, 0.2) none repeat scroll 0 0;
 	border-radius: 50px 0 0 50px;
 }
-.playlist-box > ul li a:hover {
-}
 .audio-single .pit-opt > li em {
     color: #959ab5;
 }
@@ -15737,7 +15735,6 @@ a.shopping-cart > i {
 	-ms-background-clip: text;
     -ms-text-fill-color: transparent;
 	background-clip: text;
-    text-fill-color: transparent;
 }
 .social-circle {
     display: flex;

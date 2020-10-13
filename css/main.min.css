@@ -28082,7 +28082,6 @@ em.mm-counter+a.mm-next+label.mm-check+a,em.mm-counter+a.mm-next+label.mm-check+
     display:block;
     width:12px;
     height:12px;
-    background:url(chosen-sprite.png) -42px 1px no-repeat;
     font-size:1px
 }
 .chosen-container-single .chosen-single abbr:hover{
@@ -28103,7 +28102,6 @@ em.mm-counter+a.mm-next+label.mm-check+a,em.mm-counter+a.mm-next+label.mm-check+
     display:block;
     width:100%;
     height:100%;
-    background:url(chosen-sprite.png) no-repeat 0 2px
 }
 .chosen-container-single .chosen-search{
     position:relative;
@@ -28119,8 +28117,6 @@ em.mm-counter+a.mm-next+label.mm-check+a,em.mm-counter+a.mm-next+label.mm-check+
     height:auto;
     outline:0;
     border:1px solid #aaa;
-    background:#fff url(chosen-sprite.png) no-repeat 100% -20px;
-    background:url(chosen-sprite.png) no-repeat 100% -20px;
     font-size:1em;
     font-family:sans-serif;
     line-height:normal;
@@ -28259,7 +28255,6 @@ em.mm-counter+a.mm-next+label.mm-check+a,em.mm-counter+a.mm-next+label.mm-check+
     display:block;
     width:12px;
     height:12px;
-    background:url(chosen-sprite.png) -42px 1px no-repeat;
     font-size:1px
 }
 .chosen-container-multi .chosen-choices li.search-choice .search-choice-close:hover{
@@ -28385,8 +28380,6 @@ em.mm-counter+a.mm-next+label.mm-check+a,em.mm-counter+a.mm-next+label.mm-check+
 }
 .chosen-rtl .chosen-search input[type=text]{
     padding:4px 5px 4px 20px;
-    background:#fff url(chosen-sprite.png) no-repeat -30px -20px;
-    background:url(chosen-sprite.png) no-repeat -30px -20px;
     direction:rtl
 }
 .chosen-rtl.chosen-container-single .chosen-single div b{
@@ -28397,7 +28390,6 @@ em.mm-counter+a.mm-next+label.mm-check+a,em.mm-counter+a.mm-next+label.mm-check+
 }
 @media only screen and (-webkit-min-device-pixel-ratio:1.5),only screen and (min-resolution:144dpi),only screen and (min-resolution:1.5dppx){
     .chosen-container .chosen-results-scroll-down span,.chosen-container .chosen-results-scroll-up span,.chosen-container-multi .chosen-choices .search-choice .search-choice-close,.chosen-container-single .chosen-search input[type=text],.chosen-container-single .chosen-single abbr,.chosen-container-single .chosen-single div b,.chosen-rtl .chosen-search input[type=text]{
-        background-image:url(chosen-sprite@2x.png)!important;
         background-size:52px 37px!important;
         background-repeat:no-repeat!important
     }

@@ -7457,9 +7457,6 @@ input[type="checkbox"]:checked + label{color: #000;}
 .chosen-container-active.chosen-with-drop .chosen-single div b{
 	background-position: -16px 10px;
 }
-.chosen-container-single .chosen-single div b{
-	background: rgba(0, 0, 0, 0) url("chosen-sprite.png") no-repeat scroll 0 10px;
-}
 
 .select-options .chosen-single > span {
     line-height: initial;

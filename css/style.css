@@ -327,6 +327,9 @@ section {
 .bg-green{
     background: #38bff1;
 }
+.bg-yellow{
+    background: #ffd300;
+}
 
 .like-dislike > li a.bg-purple{
 	background: #8c6ad2;
@@ -3785,8 +3788,8 @@ nav.breadcrumb {
 }
 
 .page-publishes {
-    border-bottom: 1px solid #e6ecf5;
-    border-top: 1px solid #e6ecf5;
+    /* border-bottom: 1px solid #e6ecf5; */
+    /* border-top: 1px solid #e6ecf5; */
     display: inline-block;
     list-style: outside none none;
     margin-bottom: 0;
@@ -3797,7 +3800,7 @@ nav.breadcrumb {
 .your-page ul.page-publishes > li {
     margin-bottom: 0;
     text-align: center;
-    width: 23.7%;
+    width: 23.5%;
 }
 .your-page ul.page-publishes > li span i {
     font-size: 16px;
@@ -7457,9 +7460,6 @@ input[type="checkbox"]:checked + label{color: #000;}
 .chosen-container-active.chosen-with-drop .chosen-single div b{
 	background-position: -16px 10px;
 }
-.chosen-container-single .chosen-single div b{
-	background: rgba(0, 0, 0, 0) url("chosen-sprite.png") no-repeat scroll 0 10px;
-}
 
 .select-options .chosen-single > span {
     line-height: initial;
@@ -10605,7 +10605,7 @@ span.ttl {
     display: inline-block;
     padding-left: 7px;
     vertical-align: middle;
-    width: 59.5%;
+    width: 59.2%;
 }
 .re-links-meta > h6 {
     color: #535165;

@@ -327,6 +327,9 @@ section {
 .bg-green{
     background: #38bff1;
 }
+.bg-yellow{
+    background: #ffd300;
+}
 
 .like-dislike > li a.bg-purple{
 	background: #8c6ad2;

@@ -1,0 +1,26 @@
+{
+  "name": "sociee",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qr-coder/sociee.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/qr-coder/sociee/issues"
+  },
+  "homepage": "https://github.com/qr-coder/sociee#readme",
+  "dependencies": {
+    "D": "^1.0.0",
+    "postcss-modules": "^3.2.2",
+    "postcss-uncss": "^0.17.0",
+    "uncss": "^0.17.3"
+  }
+}

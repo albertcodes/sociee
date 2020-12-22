@@ -1,1 +1,1 @@
-Sociee
+Sociee Gaming
